@@ -1,0 +1,103 @@
+@charset "utf-8";
+input[type="checkbox"]:focus {
+  outline: 0;
+  background-color: transparent;
+}
+section .hibasGomb {
+  -webkit-appearance: none;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  /* top: 20px;
+    left: 20px; */
+  transition: 0.4s;
+  text-align: center;
+  font-weight: 600;
+  color: white;
+  border-radius: 3px;
+  outline: none;
+  background-color: #0e9700;
+  cursor: pointer;
+}
+
+section .hibasGomb:checked {
+  right: 2px;
+  top: -10px;
+  /* top:-14px; */
+  background-color: transparent;
+}
+section .hibasGomb:before {
+  color: #2c3136;
+  content: "✔";
+  
+  
+}
+section .hibasGomb:checked:before {
+  font-weight: 20;
+  font-size: 30px;
+  color: #fe0006;
+  content: "\26A0";
+  /* content: "\1f4a9"; */
+}
+
+section .hibasGomb:checked:hover {
+  text-shadow: 1px 0px 10px #cc0000;
+  background-color: none;
+}
+
+section .feloldasGomb {
+    border-radius: 4px;
+    border: 2px solid #0e9700;
+    color: #343a40;
+}
+section .feloldasGomb:hover {
+    box-shadow: 1px 0px 10px #0e9700;
+    background-color: #343a40;
+  color: #0e9700;
+}
+
+
+
+section .osszesSzekreny table {
+  border-collapse: collapse;
+  /* margin: 25px 0; */
+  margin: 0 0 0 30px;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.osszesSzekreny table thead tr {
+  background-color: #343a40;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+.osszesSzekreny table th,
+.osszesSzekreny table td {
+  padding: 12px 15px;
+}
+.osszesSzekreny table tbody tr {
+  border-bottom: 1px solid #bdbdbd;
+}
+.osszesSzekreny table tbody tr:nth-of-type(even) {
+  background-color: #e7e7e7;
+}
+.osszesSzekreny table tbody tr:last-of-type {
+  border-bottom: 4px solid #343a40;
+}
+.osszesSzekreny table tbody tr:hover {
+  font-weight: bold;
+  color: #2c3136;
+  background-color: #cacaca;
+}
+section .keresettSzemely{
+  /* display: inline; */
+  display: flex;
+}
+section .keresettSzekreny{
+  width: auto;
+  display: flex;
+  /* display: inline; */
+}

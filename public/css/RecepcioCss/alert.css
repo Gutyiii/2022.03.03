@@ -1,0 +1,54 @@
+@charset "utf-8";
+.alert {
+    opacity: 0.96;
+  color: black;
+  position: fixed;
+  text-align: center;
+  right: 0;
+  top: 60px;
+  right: 25%;
+  width: 40%;
+  padding: 30px;
+  border-radius: 5px;
+}
+.hiba{
+    background-color: rgb(248, 11, 11);
+    box-shadow: 0 0 15px 5px rgb(248, 11, 11);
+}
+.sikeres{
+    background-color: #1cb85d;
+    box-shadow: 0 0 15px 5px #1cb85d;
+}
+.figyelmeztetes{
+    box-shadow: 0 0 15px 5px rgb(255, 208, 0);
+    background-color: rgb(255, 208, 0);
+}
+.close {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  opacity: 0.5;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 50%;
+  right: 15px;
+  top: 25px;
+  text-align: center;
+  font-size: 1.6em;
+  cursor: pointer;
+}
+/* @mixin alert($name, $bgColor) {
+  $accentColor: darken($bgColor, 50);
+  .#{$name} {
+    background-color: #{$bgColor};
+    border-left: 5px solid $accentColor;
+    .close {
+      border-color: $accentColor;
+      color: $accentColor;
+    }
+  }
+}
+@include alert(simple-alert, #ebebeb);
+@include alert(success-alert, #a8f0c6);
+@include alert(danger-alert, #f7a7a3);
+@include alert(warning-alert, #ffd48a); */

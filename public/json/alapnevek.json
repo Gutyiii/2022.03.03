@@ -1,0 +1,5 @@
+{
+  "emberek": ["szemely_id","email_cim","nev","jogosultsag_id","szul_datum","Neme","igazolvany_szam","igazolvany_tipusa"
+  ],
+  "gepek":["eszkoz_id","eszkoz_tipus_szamlalo","eszkoz_neve","kep","leiras","terem_id"]
+}

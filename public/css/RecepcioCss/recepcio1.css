@@ -1,0 +1,87 @@
+
+@charset "utf-8";
+
+
+
+
+
+
+
+/* input[type=number]:hover::-webkit-inner-spin-button { 
+    cursor: pointer;
+    width: 30px;
+    height: 40px;
+} */
+
+
+/* input[type="number"]::-webkit-clear-button{
+    -webkit-appearance: ;
+} */
+
+
+
+
+
+.form-group{
+    /* width: 100%; */
+}
+
+/* #szemelyMegjelenites table, tr, th, td{ 
+    background-color: #cc0000;
+} */
+
+
+
+
+/* #szemelyTable{
+    display: inline-flex;
+    position: relative;
+} */
+
+body{
+    background: #FFFAF0;
+}
+
+/* input[type="checkbox"] {
+    filter: invert(99%) hue-rotate(320deg) brightness(0.9);
+  }
+  .hibasGomb3{
+    content: '\2713';
+  } */
+/*   input[type="checkbox"] {
+    -webkit-box-shadow: 0px 0px 0px 1px rgba(255,0,0,1);
+    -moz-box-shadow: 0px 0px 0px 1px rgba(255,0,0,1);
+    box-shadow: 0px 0px 0px 1px rgba(255,0,0,1);
+  } */
+/*   input[type="checkbox"]:hover {
+      color: #cc0000;
+      border: 1px solid black;
+  } */
+  .hibasGomb3{
+    content: '\2713';
+  }
+/*   .hibasGomb {
+    display: none;
+}
+
+.hibasGomb + .lab {
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+
+.hibasGomb:checked + .lab:after {
+    position: absolute;
+    right: 0px;
+    top: -6px;
+    color: red; 
+    content: "\26A0"; 
+    font-size: 25px;
+    
+}  */

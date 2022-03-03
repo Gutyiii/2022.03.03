@@ -1,0 +1,27 @@
+@charset "utf-8";
+main{
+    display: grid;
+    grid-template-areas: 
+    "h h h h h h"
+    "a a a a a a"
+    "s s s s s s"
+    "f f f f f f"
+}
+header{
+    grid-area:h;
+}
+nav{
+    grid-area:n;
+}
+article{
+    grid-area:a;
+}
+section{
+    grid-area:s;
+}
+footer{
+    grid-area:f;
+}
+#szemelyMegjelenites{
+    grid-area:sz;
+}

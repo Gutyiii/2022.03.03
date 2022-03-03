@@ -1,0 +1,85 @@
+@charset "utf-8";
+article{
+        color: white;
+        padding: 5px;
+        background-color: rgb(51, 51, 51);
+        border-bottom: 3px solid #cc0000;
+        display: inline-flex;
+    }
+    
+article .keresSzemely,
+article .keresSzekrenykulcs {
+    border-radius: 5px;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  color: #cc0000;
+  
+}
+#kereso{
+    display: inline-flex;
+}
+article #kereso #jobb, article #kereso #bal{
+    padding: 5px;
+}
+article span {
+    font-size: 20px;
+    color: rgb(218, 218, 218);
+}
+article span:first-child {
+    border-bottom:2px dashed #cc0000;
+}
+article .hibasGomb {
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    /* top: 20px;
+      left: 20px; */
+    transition: 0.4s;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    border-radius: 3px;
+    outline: none;
+    background-color: #0e9700;
+    cursor: pointer;
+  }
+  
+  article .hibasGomb:checked {
+    right: 2px;
+    top: 3px;
+    background-color: transparent;
+  }
+  article .hibasGomb:before {
+    color: #2c3136;
+    content: "✔";
+    
+    
+  }
+  article .hibasGomb:checked:before {
+    
+    font-weight: 20;
+    font-size: 40px;
+    color: #fe0006;
+    content: "\26A0";
+    /* content: "\1f4a9"; */
+  }
+  
+  article .hibasGomb:checked:hover {
+    text-shadow: 1px 0px 10px #cc0000;
+    background-color: none;
+  }
+  
+  article .feloldasGomb {
+      border-radius: 4px;
+      border: 2px solid #0e9700;
+      color: #343a40;
+  }
+  article .feloldasGomb:hover {
+      box-shadow: 1px 0px 10px #0e9700;
+        color: #0e9700;
+  }
+  article .feloldasGomb{
+      margin: 5px;
+  }

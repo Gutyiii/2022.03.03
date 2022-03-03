@@ -1,0 +1,62 @@
+@charset "utf-8";
+main{
+    
+    margin: auto;
+    padding: auto;
+    border: outset;
+    display: grid;
+    grid-template-areas: 
+    "he he he he he he"
+    "as ar ar ar ar el";
+}
+header{
+    height: 100px;
+    
+    grid-area: he;
+    border:2px solid palegoldenrod ;
+   
+}
+aside{
+    height: 550px;
+    grid-area: as;
+    border: peru;
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+article{
+   
+    border: red;
+    grid-area: ar;
+}
+
+
+.elemek{
+    padding: auto;
+    margin: auto;
+    grid-area: el;
+    border:2px solid palegoldenrod ;
+}
+.elem{
+    display: grid;
+    grid-template-columns:  auto ;
+    border:2px solid palegoldenrod ;
+    width: 25%;
+    padding: 10px;
+    text-align: left;
+}
+.elem{
+    border:2px solid palegoldenrod ;
+    padding: 5px;
+}
+#javitas{
+    grid-area: ja;
+    background-color: aqua;
+    width: 99%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: auto 80%;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin: 1px;
+}

@@ -1,0 +1,65 @@
+@charset "utf-8";
+#szemelyMegjelenites {
+  /* padding: 30px; */
+  position: fixed;
+  right: 0;
+  top:60px;
+}
+#kep img {
+  width: 100px;
+}
+#szemelyMegjelenites {
+  display: flex;
+  /* border-bottom: 3px solid #cc0000; */
+  color: white;
+}
+#szemelyMegjelenites table {
+  overflow: hidden;
+  color: white;
+}
+#szemelyMegjelenites table td {
+  white-space: nowrap;
+}
+#szemelyMegjelenites table {
+  height: 100%;
+}
+#szemelyMegjelenites table {
+  border-collapse: collapse;
+}
+#szemelyMegjelenites table td {
+  text-align: center;
+}
+#szemelyMegjelenites .bal table {
+  border-radius: 10px 0 0 10px;
+}
+#szemelyMegjelenites .jobbTablazatSzekreny table {
+  border-radius: 0 10px 10px 0;
+}
+
+#szemelyMegjelenites table th,
+#szemelyMegjelenites table td {
+  padding: 12px 15px;
+}
+#szemelyMegjelenites table thead tr {
+  background-color: #b9b9b9;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+
+#szemelyMegjelenites table tbody tr {
+  background-color: #ffffff;
+}
+#szemelyMegjelenites table tbody {
+  color: black;
+}
+/* #szemelyMegjelenites table tbody tr {
+  border-bottom: 1px solid #bdbdbd;
+} */
+#szemelyMegjelenites table tbody td,
+#szemelyMegjelenites table thead th {
+  border: 1px solid rgb(202, 202, 202);
+}
+#szemelyMegjelenites table thead th {
+  color: #ececec;
+}

@@ -1,0 +1,133 @@
+@charset "utf-8";
+
+body {
+    width: 100%;
+    margin: auto;
+    background-image: url("../kepek/hatter3.jpg");
+    color: white;
+    opacity: 98%;
+}
+
+.kepvaltas{
+    grid-area: h;
+    height: 1280px;
+    background-image: url("../kepek/hh1.jpg");
+}
+
+.felulet{
+    grid-area: c;
+    border: 1px solid blanchedalmond;
+}
+
+#bal{
+    position: absolute;
+    left: 40px;
+    top: 120px;
+    height: 760px;
+}
+
+#jobb{
+    position: absolute;
+    right: 40px;
+    top: 120px;
+    height: 760px;
+}
+
+#logo {
+    position: fixed;
+    z-index: 6000;
+    left: 100px;
+    top: 80px;
+}
+
+#ki-be_jel {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 23px;
+    color: rgba(241, 50, 36, 0.842);
+    font-weight: 480;
+}
+
+#bejelentkezes {
+    position: fixed;
+    z-index: 6000;
+    right: 220px;
+    top: 20px;
+    
+}
+#regisztracio {
+    position: fixed;
+    z-index: 6000;
+    right: 80px;
+    top: 20px;
+}
+#k_mezo{
+    position: fixed;
+    z-index: 6000;
+    right: 80px;
+    top: 80px;
+}
+
+nav{
+    grid-area: n;
+    height: 60px;
+    background-color: rgba(235, 80, 69, 0.842);
+    padding-top: 13px;
+    opacity: 90%;  
+}
+
+nav ul li {
+    list-style: none;
+}
+
+footer{
+    grid-area: f;
+    text-align: center;
+    background-color: rgba(235, 80, 69, 0.842);
+    opacity: 80%;
+}
+
+.instakep{
+    /*background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);*/
+    /*background-image: radial-gradient(circle, red, yellow, green);*/
+    font-size:100px;
+    color: orange;
+    margin-right: 15px;
+}
+
+.facekep{
+    font-size:100px;
+    color: blue;
+    margin-right: 34px;
+}
+
+footer span{
+    font-size: 40px;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: red;
+}
+
+/* mouse over link */
+a:hover {
+    color: orange;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: rgba(235, 80, 69, 0.842);
+}
+
+article div ul li a:visited{color: rgba(235, 80, 69, 0.842);}
+
+nav ul li a:visited{color: white;}
+
+nav ul li a:hover{color: orange;}

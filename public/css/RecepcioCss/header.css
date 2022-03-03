@@ -1,0 +1,117 @@
+@charset "utf-8";
+html {
+  font-family: sans-serif;
+  background-color: white;
+}
+body{
+    margin:0;
+}
+header {
+  background-color: #222;
+  border: 3px solid black;
+  border-radius: 0px 0px 3px 3px;
+  width: 100%;
+}
+nav ul {
+    float: left;
+    padding:0px;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #cc0000;
+    padding-right: 20px;
+}
+nav ul li{
+    font-size: 14px;
+}
+nav ul li:first-child {
+    font-size: 18px;
+    font-weight: bold;
+}
+nav ul li a:hover {
+  color: white;
+}
+header form p {
+  /* Létszém megjelenítés módosítás */
+  color: darkred;
+  display: inline;
+}
+header #Szabad {
+    /* Létszém megjelenítés módosítás Férfi hely:*/
+    font-size: 22px;
+    color: rgb(121, 8, 8);
+  }
+  header #ferfiLetszam,#noiiLetszam {
+  /* létszám számláló megjelenítés módosítás */
+  font-size: 22px;
+  color: darkred;
+  display: inline;
+}
+header form ::placeholder{
+    color: #cc0000;
+}
+header form{
+    margin-top: 5px;
+}
+.szemelyLefoglal,.kulcsLefoglal {
+  height: 34px;
+  font-size: 14px;
+  color: #cc0000;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid black;
+}
+.lefoglal {
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button {
+  /* szekrény szám kereső léptető módosítása */
+  position:absolute;
+  cursor: pointer;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+input[type="number"]::-webkit-inner-spin-button:hover,input[type="number"]::-webkit-inner-spin-button:active {
+  /* szekrény szám kereső léptető módosítása derengő piros szín*/
+  box-shadow: 0 0 10px #cc0000;
+  opacity: 0.8;
+}
+.kulcsLefoglal {
+  border-radius: 0px 4px 4px 0px;
+}
+.szemelyLefoglal {
+  border-radius: 4px 0px 0px 4px;
+}
+
+.lefoglal {
+  /* Lefoglal gomb módosítása */
+  background-color: black;
+  color: #cc0000;
+  border: 2px solid #cc0000;
+  transition-duration: 0.4s;
+  padding: 5px 10px 5px 10px;
+}
+.lefoglal:hover {
+  /* Lefoglal gomb módosítása */
+  color: white;
+  border: 2px solid black;
+}
+.lefoglal:active {
+  /* Lefoglal gomb módosítása */
+  background-color: darkred;
+}
+#szemelyerror{
+    color: yellow;
+    position: fixed;
+     text-align: center;
+    /*width: 100%; */
+    left: 350px;
+    top:45px;
+}
